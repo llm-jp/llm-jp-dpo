@@ -11,6 +11,7 @@ See `pyproject.toml` for the required packages.
 
 ```bash
 poetry install
+poetry shell
 ```
 
 ## Training
