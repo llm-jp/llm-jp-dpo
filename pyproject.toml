@@ -1,13 +1,20 @@
 [tool.poetry]
 name = "llm-jp-dpo"
 version = "0.1.0"
-description = "Scripts to train LLMs with DPO"
+description = "Scripts to train LLM-jp models with DPO"
 authors = ["Taka008 <kodama@nlp.ist.i.kyoto-u.ac.jp>"]
 license = "Apache-2.0"
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
+transformers = "^4.37.2"
+trl = "^0.7.10"
+peft = "^0.8.2"
+datasets = "^2.16.1"
+deepspeed = "^0.13.1"
+wandb = "^0.16.2"
+accelerate = "^0.26.1"
 
 
 [build-system]
